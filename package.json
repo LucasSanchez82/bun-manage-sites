@@ -1,0 +1,16 @@
+{
+  "name": "bun-invite-manage-web-sites",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^4.17.21"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.20.0",
+    "zod": "^3.23.8"
+  }
+}

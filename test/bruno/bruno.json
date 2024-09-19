@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "bun-manage-sites",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

@@ -1,0 +1,17 @@
+meta {
+  name: status.post
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3001/nginx/status
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+     "status": "start"
+  }
+}
