@@ -7,5 +7,6 @@ nginxConfRouter.get("/", (req, res) => res.send('get : \n /enabled\n/available\n
 nginxConfRouter.get('/available', getNginxConf.available)
 nginxConfRouter.get('/enabled', getNginxConf.enabled)
 nginxConfRouter.get('/all', getNginxConf.all)
+nginxConfRouter.get('/status', getNginxConf.status)
 
 export default nginxConfRouter;
